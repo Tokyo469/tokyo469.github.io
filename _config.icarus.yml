@@ -114,7 +114,7 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/Tokyo469/tokyo469.github.io
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -164,41 +164,42 @@ comment:
     type: disqus
     # Disqus shortname
     shortname: ''
-# Donate plugin configurations
+# region Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
-donates:
-    # "Afdian.net" donate button configurations
-    -
-        type: afdian
-        # URL to the "Afdian.net" personal page
-        url: ''
-    # Alipay donate button configurations
-    -
-        type: alipay
-        # Alipay qrcode image URL
-        qrcode: ''
-    # "Buy me a coffee" donate button configurations
-    -
-        type: buymeacoffee
-        # URL to the "Buy me a coffee" page
-        url: ''
-    # Patreon donate button configurations
-    -
-        type: patreon
-        # URL to the Patreon page
-        url: ''
-    # Paypal donate button configurations
-    -
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
-    # Wechat donate button configurations
-    -
-        type: wechat
-        # Wechat qrcode image URL
-        qrcode: ''
+#donates:
+#    # "Afdian.net" donate button configurations
+#    -
+#        type: afdian
+#        # URL to the "Afdian.net" personal page
+#        url: ''
+#    # Alipay donate button configurations
+#    -
+#        type: alipay
+#        # Alipay qrcode image URL
+#        qrcode: ''
+#    # "Buy me a coffee" donate button configurations
+#    -
+#        type: buymeacoffee
+#        # URL to the "Buy me a coffee" page
+#        url: ''
+#    # Patreon donate button configurations
+#    -
+#        type: patreon
+#        # URL to the Patreon page
+#        url: ''
+#    # Paypal donate button configurations
+#    -
+#        type: paypal
+#        # Paypal business ID or email address
+#        business: ''
+#        # Currency code
+#        currency_code: USD
+#    # Wechat donate button configurations
+#    -
+#        type: wechat
+#        # Wechat qrcode image URL
+#        qrcode: ''
+# endregion
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
@@ -211,11 +212,11 @@ sidebar:
     # Left sidebar configurations
     left:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
@@ -225,36 +226,36 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Kening Hu
         # Author title
-        author_title: Your title
+        author_title: Create and Discover
         # Author's current location
-        location: Your location
+        location: Hainan, China
         # URL or path to the avatar image
-        avatar: 
+        avatar: https://avatars.githubusercontent.com/u/81057147
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: https://github.com/ppoffice
+        follow_link: https://github.com/Tokyo469
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: https://github.com/ppoffice
+                url: https://github.com/Tokyo469/tokyo469.github.io
             Facebook:
                 icon: fab fa-facebook
-                url: https://facebook.com
+                url: https://www.facebook.com/profile.php?id=100078720472766
             Twitter:
                 icon: fab fa-twitter
-                url: https://twitter.com
-            Dribbble:
-                icon: fab fa-dribbble
-                url: https://dribbble.com
-            RSS:
-                icon: fas fa-rss
-                url: /
+                url: https://twitter.com/hukening8
+#            Dribbble:
+#                icon: fab fa-dribbble
+#                url: https://dribbble.com
+#            RSS:
+#                icon: fas fa-rss
+#                url: /
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
