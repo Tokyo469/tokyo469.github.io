@@ -4,7 +4,7 @@ description: ''
 keywords: null
 author: Kening Hu
 language: en
-timezone: ''
+timezone: 'Asia/Shanghai'
 url: https://tokyo469.github.io/
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
