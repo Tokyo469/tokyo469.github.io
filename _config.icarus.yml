@@ -164,9 +164,9 @@ comment:
     type: utterances
     repo: Tokyo469/personal-blog-comments
     issue_term: pathname        # 必填项，与issue_number二选一填写
-    issue_number: 100           # 必填项，与issue_term二选一填写，每篇文章对应一个issue，填写前需要手动创建issue
-#    label: some-issue-label     # 可选填
+#    issue_number: 100           # 必填项，与issue_term二选一填写，每篇文章对应一个issue，填写前需要手动创建issue
     theme: github-light         # 可选填
+#    label: some-issue-label     # 可选填
 # region Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 #donates:
