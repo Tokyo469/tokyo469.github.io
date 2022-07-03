@@ -234,7 +234,7 @@ widgets:
         # Author's current location
         location: Hainan, China
         # URL or path to the avatar image
-        avatar: https://avatars.githubusercontent.com/u/81057147
+        avatar: img/avatar.png
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
