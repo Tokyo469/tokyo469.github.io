@@ -10256,6 +10256,9 @@ html {
   text-size-adjust: 100%;
 }
 body {
+  background: url("/img/background.png");
+  background-attachment: fixed;
+  background-size: 100% 100%;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -10762,6 +10765,7 @@ body > .section {
 .card {
   overflow: visible;
   border-radius: 0;
+  background-color: #535a73;
 }
 .card + .card,
 .card + .column-right-shadow {
@@ -10775,6 +10779,56 @@ body > .section {
 .card .media + .media {
   border: none;
   margin-top: 0;
+}
+div[data-type=profile] > .card-content,
+div[data-type=profile] p.title {
+  background-color: #535a73;
+  color: rgba(255,255,255,0.8);
+}
+div[data-type=links] > .card-content h3.menu-label,
+div[data-type=links] > .card-content a,
+div[data-type=links] ul.menu-list span.level-right>span.level-item {
+  background-color: #535a73;
+  color: rgba(255,255,255,0.8);
+}
+div[data-type=links] > .card-content li>a:hover,
+div[data-type=links] ul.menu-list span.level-right>span.level-item：hover {
+  background-color: #32374a;
+  color: rgba(255,255,255,0.8);
+}
+div[data-type=recent-posts] article.media p.title > a {
+  display: block;
+  width: 100%;
+}
+div[data-type=recent-posts] h3.menu-label,
+div[data-type=recent-posts] article.media,
+div[data-type=recent-posts] article.media p.title > a,
+div[data-type=recent-posts] div.media-content>p.date {
+  color: rgba(255,255,255,0.8);
+}
+div[data-type=recent-posts] article.media p.title {
+  padding: 0.5em 0.75em;
+}
+div[data-type=recent-posts] article.media p.title > a:hover {
+  color: #fff;
+}
+div[data-type=recent-posts] article.media p.title:hover {
+  background-color: #32374a;
+  color: #fff;
+}
+div[data-type=archives] h3.menu-label,
+div[data-type=archives] ul.menu-list > li {
+  color: rgba(255,255,255,0.8);
+}
+div[data-type=archives] ul.menu-list > li:hover {
+  color: #fff;
+  background-color: #32374a;
+}
+div[data-type=comments] {
+  background-color: #fef6f4 !important;
+}
+article.article.card-content {
+  background-color: #fef6f4;
 }
 article.media {
   color: #848484;
@@ -10936,7 +10990,21 @@ a.article-nav-next span {
   white-space: normal;
 }
 .navbar-main {
+  background-color: #7266ba !important;
+}
+.navbar-main>div.navbar-container>div.navbar-menu,
+.navbar-main>div.navbar-container {
   box-shadow: none;
+  background-color: #7266ba !important;
+}
+.navbar-main>div.navbar-container div.navbar-start>a.navbar-item {
+  color: #fff;
+  font-size: 1.3rem;
+}
+.navbar-main>div.navbar-container div.navbar-start>a.navbar-item:hover,
+.navbar-main>div.navbar-container div.navbar-end>a.navbar-item:hover {
+  color: #fff;
+  background-color: #32374a;
 }
 .navbar-main .navbar-container {
   overflow-x: auto;
@@ -10991,6 +11059,14 @@ a.article-nav-next span {
   .container > .navbar .navbar-menu {
     margin-right: 0rem;
   }
+}
+footer.footer {
+  padding: 0.5rem 0 0.5rem;
+}
+footer.footer .level-start > p {
+  padding: 0;
+  margin: 0;
+  color: #fff;
 }
 @media screen and (max-width: 768px) {
   footer.footer .level-start {
@@ -11350,6 +11426,15 @@ figure.highlight.foldable div.level-left {
 .gist .file {
   all: initial;
 }
+.widget .menu-list>li>a,
+.widget .menu-list>li>a span.level-item.tag {
+  background-color: #535a73;
+  color: rgba(255,255,255,0.8);
+}
+.widget .menu-list>li>a:hover {
+  background-color: #32374a;
+  color: #fff;
+}
 .widget .menu-list li ul {
   margin-right: 0;
 }
@@ -11366,7 +11451,7 @@ figure.highlight.foldable div.level-left {
   align-items: flex-start;
 }
 .widget .menu-list .tag {
-  background: $light-grey;
+  background: #535a73;
   color: $white-invert;
 }
 .widget .tags .tag:first-child {
