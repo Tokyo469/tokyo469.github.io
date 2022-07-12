@@ -15,4 +15,4 @@ date: 2022-07-02 10:05:31
 
 ## 关于博客
 
-本博客使用 hexo + github pages 搭建，主题为 icarus. 我自己对主题进行了一些改动，因为我觉得原主题有点刺眼。需要说明的是，在修改的过程中，我借鉴了其他博客的配色方案。
+本博客使用 [hexo](https://hexo.io/zh-cn/) + [github pages](https://docs.github.com/cn/pages/getting-started-with-github-pages/about-github-pages) 搭建，主题为 [icarus](https://github.com/ppoffice/hexo-theme-icarus). 我自己对主题进行了一些改动，因为我觉得原主题有点刺眼。需要说明的是，在修改的过程中，我借鉴了其他博客的配色方案。
