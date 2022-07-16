@@ -10757,6 +10757,9 @@ body > .section {
   width: 100% !important;
   height: 100% !important;
 }
+.button.is-primary {
+  background-color: #2e6e7a;
+}
 .button.is-transparent {
   color: inherit;
   background: transparent;
@@ -10765,7 +10768,7 @@ body > .section {
 .card {
   overflow: visible;
   border-radius: 0;
-  background-color: #535a73;
+  background-color: #0be2d0;
 }
 .card + .card,
 .card + .column-right-shadow {
@@ -10782,19 +10785,19 @@ body > .section {
 }
 div[data-type=profile] > .card-content,
 div[data-type=profile] p.title {
-  background-color: #535a73;
-  color: rgba(255,255,255,0.8);
+  background-color: #0be2d0;
+  color: #000;
 }
 div[data-type=links] > .card-content h3.menu-label,
 div[data-type=links] > .card-content a,
 div[data-type=links] ul.menu-list span.level-right>span.level-item {
-  background-color: #535a73;
-  color: rgba(255,255,255,0.8);
+  background-color: #0be2d0;
+  color: #000;
 }
 div[data-type=links] > .card-content li>a:hover,
 div[data-type=links] ul.menu-list span.level-right>span.level-item：hover {
-  background-color: #32374a;
-  color: rgba(255,255,255,0.8);
+  background-color: #197a73;
+  color: #000;
 }
 div[data-type=recent-posts] article.media p.title > a {
   display: block;
@@ -10804,25 +10807,25 @@ div[data-type=recent-posts] h3.menu-label,
 div[data-type=recent-posts] article.media,
 div[data-type=recent-posts] article.media p.title > a,
 div[data-type=recent-posts] div.media-content>p.date {
-  color: rgba(255,255,255,0.8);
+  color: #000;
 }
 div[data-type=recent-posts] article.media p.title {
   padding: 0.5em 0.75em;
 }
 div[data-type=recent-posts] article.media p.title > a:hover {
-  color: #fff;
+  color: #000;
 }
 div[data-type=recent-posts] article.media p.title:hover {
-  background-color: #32374a;
-  color: #fff;
+  background-color: #197a73;
+  color: #000;
 }
 div[data-type=archives] h3.menu-label,
 div[data-type=archives] ul.menu-list > li {
-  color: rgba(255,255,255,0.8);
+  color: #000;
 }
 div[data-type=archives] ul.menu-list > li:hover {
-  color: #fff;
-  background-color: #32374a;
+  color: #000;
+  background-color: #197a73;
 }
 div[data-type=comments] {
   background-color: #fef6f4 !important;
@@ -10990,21 +10993,21 @@ a.article-nav-next span {
   white-space: normal;
 }
 .navbar-main {
-  background-color: #7266ba !important;
+  background-color: #0be2d0 !important;
 }
 .navbar-main>div.navbar-container>div.navbar-menu,
 .navbar-main>div.navbar-container {
   box-shadow: none;
-  background-color: #7266ba !important;
+  background-color: #0be2d0 !important;
 }
 .navbar-main>div.navbar-container div.navbar-start>a.navbar-item {
-  color: #fff;
+  color: #000;
   font-size: 1.3rem;
 }
 .navbar-main>div.navbar-container div.navbar-start>a.navbar-item:hover,
 .navbar-main>div.navbar-container div.navbar-end>a.navbar-item:hover {
-  color: #fff;
-  background-color: #32374a;
+  color: #000;
+  background-color: #197a73;
 }
 .navbar-main .navbar-container {
   overflow-x: auto;
@@ -11066,7 +11069,7 @@ footer.footer {
 footer.footer .level-start > p {
   padding: 0;
   margin: 0;
-  color: #fff;
+  color: #000;
 }
 @media screen and (max-width: 768px) {
   footer.footer .level-start {
@@ -11099,7 +11102,7 @@ footer.footer .level-end .field {
 .pagination .pagination-previous,
 .pagination .pagination-next {
   border: none;
-  background: #000;
+  background: #2e6e7a;
   box-shadow: none, 0 0 1px rgba(0,0,0,0.1);
 }
 .pagination .pagination-link.is-current {
@@ -11428,12 +11431,12 @@ figure.highlight.foldable div.level-left {
 }
 .widget .menu-list>li>a,
 .widget .menu-list>li>a span.level-item.tag {
-  background-color: #535a73;
-  color: rgba(255,255,255,0.8);
+  background-color: #0be2d0;
+  color: #000;
 }
 .widget .menu-list>li>a:hover {
-  background-color: #32374a;
-  color: #fff;
+  background-color: #197a73;
+  color: #000;
 }
 .widget .menu-list li ul {
   margin-right: 0;
@@ -11451,7 +11454,7 @@ figure.highlight.foldable div.level-left {
   align-items: flex-start;
 }
 .widget .menu-list .tag {
-  background: #535a73;
+  background: #0be2d0;
   color: $white-invert;
 }
 .widget .tags .tag:first-child {
